@@ -1,0 +1,113 @@
+ *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ }
+ .plugin_head img{
+      width: 80px;
+  }
+
+.emote_product_table  {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+ .emote_product_table td {
+    text-align: center;
+    padding: 5px;
+  }
+  .emote_plugin_product_head th{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+  }
+  #upload_glb_btn{
+    background: blue;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+  }
+
+  tr:nth-child(even) {
+    background-color: white;
+  }
+
+  .glb_upload_data_tag{
+    display: flex;
+    justify-content: center;
+  }
+
+  .upload_glb_file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+  }
+
+  .file-input label {
+    display: block;
+    position: relative;
+    width: 240px;
+    height: 50px;
+    border-radius: 8px;
+    background: blue;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+  }
+
+  .product_name{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+  }
+  .glb_upload_div{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+  }
+
+  .glb_upload_div_section p{
+    font-size: 24px;
+    margin: 0px;
+  }
+  .select_template_with_product_img{
+    display: flex;
+    width: 100%;
+    margin-top: 35px;
+    justify-content: space-between;
+  }
+  .select_template_with_product_img img{
+    width: 400px;
+    padding-right: 20px;
+  }
+  .select_templte_tag{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+  }
+  .select_templte_tag p, #back_to_product{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 227px;
+    padding: 5px 7px 7px 7px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  #back_to_product{
+    background-color: brown;
+  }
