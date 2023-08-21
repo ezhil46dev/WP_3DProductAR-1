@@ -1,0 +1,30 @@
+.plugin_head img{
+    width: 80px;
+}
+
+.emote_product_table  {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+ .emote_product_table td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  .emote_plugin_product_head th{
+    border: 1px solid #dddddd;
+    background-color: white;
+    color: #683e95;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+  }
+  .upload_glb_btn{
+    background: blue;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
