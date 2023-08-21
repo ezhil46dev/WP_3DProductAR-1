@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['glbFile'])) {
 
         if (move_uploaded_file($tempFilePath, $uploadPath)) {
             $productPath = $uploadPath;
-            echo 'File uploaded and saved successfully!';
+            echo 'File uploaded and saved successfull!';
         } else {
             echo 'Error uploading and saving file.';
         }
